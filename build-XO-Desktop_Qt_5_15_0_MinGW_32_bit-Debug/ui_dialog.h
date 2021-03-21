@@ -63,7 +63,7 @@ public:
         icon.addFile(QString::fromUtf8(":/resurces/naval.png"), QSize(), QIcon::Selected, QIcon::On);
         Dialog->setWindowIcon(icon);
         Dialog->setWindowOpacity(1.000000000000000);
-        Dialog->setStyleSheet(QString::fromUtf8(""));
+        Dialog->setStyleSheet(QString::fromUtf8("background-image: url(:/resurces/background_2.jpg);"));
         Dialog->setInputMethodHints(Qt::ImhNone);
         layoutWidget = new QWidget(Dialog);
         layoutWidget->setObjectName(QString::fromUtf8("layoutWidget"));

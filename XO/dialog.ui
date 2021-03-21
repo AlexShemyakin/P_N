@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>725</width>
-    <height>713</height>
+    <width>700</width>
+    <height>750</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -22,6 +22,12 @@
     <height>0</height>
    </size>
   </property>
+  <property name="maximumSize">
+   <size>
+    <width>700</width>
+    <height>750</height>
+   </size>
+  </property>
   <property name="windowTitle">
    <string>Путинки-Навальники</string>
   </property>
@@ -34,7 +40,7 @@
    <double>1.000000000000000</double>
   </property>
   <property name="styleSheet">
-   <string notr="true"/>
+   <string notr="true">background-image: url(:/resurces/background.jpg);</string>
   </property>
   <property name="inputMethodHints">
    <set>Qt::ImhNone</set>
