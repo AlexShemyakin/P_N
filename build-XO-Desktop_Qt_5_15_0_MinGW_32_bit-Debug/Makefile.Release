@@ -110,7 +110,6 @@ compiler_rcc_clean:
 	-$(DEL_FILE) release\qrc_putin.cpp
 release/qrc_putin.cpp: ../putin.qrc \
 		../../../../5.15.0/mingw81_32/bin/rcc.exe \
-		../background_2.jpg \
 		../putin.png \
 		../background.jpg \
 		../naval.png
@@ -774,8 +773,6 @@ release/mainw.o: ../XO/mainw.cpp ../XO/mainw.h \
 		../../../../5.15.0/mingw81_32/include/QtWidgets/QPushButton \
 		../../../../5.15.0/mingw81_32/include/QtWidgets/qpushbutton.h \
 		../../../../5.15.0/mingw81_32/include/QtWidgets/qabstractbutton.h \
-		../../../../5.15.0/mingw81_32/include/QtWidgets/QStatusBar \
-		../../../../5.15.0/mingw81_32/include/QtWidgets/qstatusbar.h \
 		../../../../5.15.0/mingw81_32/include/QtWidgets/QVBoxLayout \
 		../../../../5.15.0/mingw81_32/include/QtWidgets/qboxlayout.h \
 		../../../../5.15.0/mingw81_32/include/QtWidgets/qlayout.h \

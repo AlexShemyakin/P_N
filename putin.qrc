@@ -1,7 +1,0 @@
-<RCC>
-    <qresource prefix="/resurces">
-        <file>putin.png</file>
-        <file>naval.png</file>
-        <file>background.jpg</file>
-    </qresource>
-</RCC>

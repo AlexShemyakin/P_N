@@ -2,6 +2,7 @@
 #define MAINW_H
 
 #include <QMainWindow>
+#include <QPushButton>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainW; }
@@ -21,7 +22,9 @@ private slots:
 
     void on_push_nav_clicked();
 
+
 private:
     Ui::MainW *ui;
+
 };
 #endif // MAINW_H

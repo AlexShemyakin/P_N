@@ -52,18 +52,19 @@ public:
     {
         if (Dialog->objectName().isEmpty())
             Dialog->setObjectName(QString::fromUtf8("Dialog"));
-        Dialog->resize(725, 713);
+        Dialog->resize(700, 750);
         QSizePolicy sizePolicy(QSizePolicy::Fixed, QSizePolicy::Fixed);
         sizePolicy.setHorizontalStretch(0);
         sizePolicy.setVerticalStretch(0);
         sizePolicy.setHeightForWidth(Dialog->sizePolicy().hasHeightForWidth());
         Dialog->setSizePolicy(sizePolicy);
         Dialog->setMinimumSize(QSize(0, 0));
+        Dialog->setMaximumSize(QSize(700, 750));
         QIcon icon;
         icon.addFile(QString::fromUtf8(":/resurces/naval.png"), QSize(), QIcon::Selected, QIcon::On);
         Dialog->setWindowIcon(icon);
         Dialog->setWindowOpacity(1.000000000000000);
-        Dialog->setStyleSheet(QString::fromUtf8("background-image: url(:/resurces/background_2.jpg);"));
+        Dialog->setStyleSheet(QString::fromUtf8("background-image: url(:/resurces/background.jpg);"));
         Dialog->setInputMethodHints(Qt::ImhNone);
         layoutWidget = new QWidget(Dialog);
         layoutWidget->setObjectName(QString::fromUtf8("layoutWidget"));
